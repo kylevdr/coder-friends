@@ -1,0 +1,27 @@
+{
+  "name": "coder-friends",
+  "version": "1.0.0",
+  "description": "Show github friends",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylevdr/coder-friends.git"
+  },
+  "author": "Kyle VanDeRiet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylevdr/coder-friends/issues"
+  },
+  "homepage": "https://github.com/kylevdr/coder-friends#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "github": "^7.1.0",
+    "passport": "^0.3.2",
+    "passport-github2": "^0.1.10"
+  }
+}
